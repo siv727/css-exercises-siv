@@ -1,3 +1,8 @@
+/* 
+  -> In the first and third solution, I utilized the alternative solutions, while I got the main 2nd solution right
+  -> I learned based on the solution that the arrangement of css rules were general to specific going down the file 
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,7 +13,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,19 +22,19 @@ body {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
